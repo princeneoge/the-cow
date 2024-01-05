@@ -1,5 +1,49 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.one{
+  background-color: rgb(218, 207, 207);
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  /* Maximum width */
+  margin: 0 auto;
+  /* Center it */
+}
+
+.container .content {
+  position: absolute;
+  /* Position the background text */
+  bottom: 0;
+  /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  /* Grey text */
+  width: 95%;
+  /* Full width */
+  padding: 20px;
+  /* Some padding */
+}
+
+.cow {
+  text-align: center;
+}
+
+.cow h1 {
+  font-size: 60px;
+  color: blue;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cow p {
+  font-size: 45px;
+  color: red;
+  display: inline-block;
+  background-color: yellow;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
